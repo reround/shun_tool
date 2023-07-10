@@ -8,6 +8,9 @@
 '''
 
 
+import numpy as np
+
+
 class Tek(object):
     """
     Tek 示波器文件类
