@@ -1,4 +1,9 @@
-
+/*
+ * 可以這樣設置發送的信息：  uint8_t bytes[8] = {0x55, 0X00, 0x84, 0x84, 0x44, 0x35, 0x66, 0xAA};
+ * int 轉 uint8_t ：
+ *        bytes[3] = (val >> 8) & 0xFF;
+ *        bytes[4] = val & 0xFF;
+ */
 #ifndef SERIAL_H
 
 #define SERIAL_H
